@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #E1DCD9;
+}
+
+.fc{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.findcontent{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 55px;
+}
+.affortable{
+    width: calc(100% / 3);
+    box-sizing: border-box;
+    margin: 10px 0 ;
+    border-right: #65A650 solid;
+    float: left;
+    text-align: center;
+    width: 350px;
+    height: 370px;
+    position: relative;
+}
+.affortable img{
+    width: 350px;
+}
+.affortable+ .seats{
+    border-right: 0;
+    border-left: 1px solid #333;
+}
+.seats{
+    float: right;
+    text-align: center;
+    width: 350px;
+    height: 370px;
+}
+.seats img{
+    width: 350px;
+}
+.findcontent2{
+    margin-top: 55px;
+    overflow: hidden;
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.equipment{
+    float: left;
+    text-align: center;
+    width: 350px;
+    height: 370px;
+}
+.equipment img{
+    width: 350px;
+}
+.equipment+ .recommendation{
+    border-right: 0;
+    border-left: 1px solid #333;
+}
+.recommendation{
+    float: right;
+    text-align: center;
+    width: 350px;
+    height: 370px;
+}
+.recommendation img{
+    width: 350px;
+}
+.findcontent+ .findcontent2{
+    border-bottom: 0;
+    border-top: 1px solid #333;
+}
