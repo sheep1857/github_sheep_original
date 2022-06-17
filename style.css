@@ -361,3 +361,97 @@ footer p{
     letter-spacing: 0.5em;
     text-decoration: underline;
 }
+.naiyo5 img{
+    height: 195px;
+    margin-left: 540px;
+}
+.naiyo5{
+    position: relative;
+}
+.naiyo5 a{
+    position: absolute;
+    text-align: center;
+    right: 680px;
+    top: 90px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    text-decoration: underline;
+}
+.naiyo6 img{
+    height: 195px;
+    margin-left: 540px;
+}
+.naiyo6{
+    position: relative;
+}
+.naiyo6 a{
+    position: absolute;
+    text-align: center;
+    right: 650px;
+    top: 90px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:480px) {
+    .top{
+        height: 330px;
+    }
+    .abtitle{
+        width: 430px;
+        text-align: center;
+        margin-top: 100px;
+        word-break: keep-all;
+    }
+    .abtitle h3{
+        width: 100px;
+    }
+    .letter img{
+        float: none;
+        margin-left: 0;
+        width: 480px;
+    }
+    .letter p{
+        float: none;
+        position: unset;
+        margin-left: 0;
+        top: unset;
+        font-size: 15px;
+        word-break: keep-all;
+        text-align: center;
+    }
+    .affortable+ .seats{
+        border-right: unset;
+        border-left: unset;
+    }
+    .equipment+ .recommendation{
+        border-right: unset;
+        border-left: unset;
+    }
+    .findcontent+ .findcontent2{
+        border-bottom: unset;
+        border-top: unset;
+    }
+    .findcontent2{
+        overflow: unset;
+        display: block;
+        margin-left: unset;
+        margin-right: unset;
+
+    }
+    .equipment{
+        margin: 0 auto;
+    }
+    .recommendation{
+        margin: 0 auto;
+    }
+
+    footer{
+        padding-top: 100px;
+    }
+    
+}
