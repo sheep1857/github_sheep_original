@@ -176,9 +176,20 @@ footer p{
 }
 
 .cheki{
-    position: relative;
     width: 220px;
     margin: 20px;
+}
+.chekiset1{
+    position: relative;
+}
+.chekiset2{
+    position: relative;
+}
+.chekiset3{
+    position: relative;
+}
+.chekiset4{
+    position: relative;
 }
 .cheki img{
     width: 234px;
@@ -186,44 +197,79 @@ footer p{
     border-bottom: 160px solid #fff;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
 }
-.cheki p{
+.chekiset1 p{
     position: absolute;
     text-align: center;
     width: 100%;
-    bottom: 7em;
+    bottom: 9em;
 }
-.cheki h3{
+.chekiset1 h3{
     position: absolute;
     text-align: center;
     width: 100%;
-    bottom: 4em;
-    padding-left: 28px;
+    bottom: 5em;
+}
+.chekiset2 p{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 9em;
+}
+.chekiset2 h3{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 5em;
+}
+.chekiset3 p{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 9em;
+}
+.chekiset3 h3{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 5em;
+}
+.chekiset4 p{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 9em;
+}
+.chekiset4 h3{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 5em;
 }
 .masute1{
     position: absolute;
-    left: 130px;
-    bottom: 335px;
+    left: 44%;
+    bottom: 83%;
     width: 100px;
     min-width: 0;
 }
 .masute2{
     position: absolute;
-    left: 480px;
-    bottom: 335px;
+    left: 44%;
+    bottom: 83%;
     width: 100px;
     min-width: 0;
 }
 .masute3{
     position: absolute;
-    left: 825px;
-    bottom: 335px;
+    left: 44%;
+    bottom: 83%;
     width: 100px;
     min-width: 0;
 }
 .masute4{
     position: absolute;
-    left: 1170px;
-    bottom: 335px;
+    left: 44%;
+    bottom: 83%;
     width: 100px;
     min-width: 0;
 }
@@ -416,6 +462,7 @@ footer p{
     }
     .abtitle h3{
         width: 100px;
+        word-wrap: break-word;
     }
     .letter img{
         float: none;
@@ -431,6 +478,7 @@ footer p{
         word-break: keep-all;
         text-align: center;
         width: 100%;
+        word-wrap: break-word;
     }
     .affortable+ .seats{
         border-right: unset;
