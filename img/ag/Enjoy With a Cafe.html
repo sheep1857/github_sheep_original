@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Enjoy With a Cafe_files/style.css">
+    <title>Enjoy With a Cafe
+    </title>
+</head>
+<body>
+    <div class="all">
+        <section id="#top">
+            <div class="top"></div>
+        </section>
+        <section id="#about">
+            <div class="aboutall">
+                    <img src="./Enjoy With a Cafe_files/about.png" class="aboutp">
+                    <h3 class="abtitle">カフェ選び、失敗したことはありませんか？</h3>
+                <div class="letter">
+                    <p>人がたくさんいたから行ってみたものの、あまり美味しくなかった...
+                    <br>値段が高すぎる！席があいていない。など、
+                    <br>意外とカフェって難しいんですよね。
+                    <br>そんなあなたに気に入ってもらえるような、関東にある素敵なカフェを紹介していきます。</p>
+                    <img src="./Enjoy With a Cafe_files/aboutsite.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="#find">
+
+            <img src="./Enjoy With a Cafe_files/find.png" class="findp">
+            <div class="fc">
+                <div class="findcontent">
+                    <div class="affortable"><a href="http://127.0.0.1:5500/affortable.html">
+                        <img src="./Enjoy With a Cafe_files/affortable.png" alt="">
+                        <h3>AFFORTABLE</h3>
+                        <h4>お手頃さ</h4>
+                        <p>ドリンクの値段が安い
+                        <br>カフェを紹介します。</p>
+                    </a>
+                    </div>
+                    <div class="seats">
+                        <a href="http://127.0.0.1:5500/seats.html">
+                        <img src="./Enjoy With a Cafe_files/seats.png" alt="">
+                        <h3>LARGE NUMBER OF SEATS</h3>
+                        <h4>席数の多さ</h4>
+                        <p>多くの座席を用意している
+                        <br>カフェを紹介します。</p>
+                    </a>
+                    </div>
+                </div>
+                <div class="findcontent2">
+                    <div class="equipment"><a href="http://127.0.0.1:5500/equipment.html">
+                        <img src="./Enjoy With a Cafe_files/equipment .png" alt="">
+                        <h3>GOOD EQUIPMENT</h3>
+                        <h4>設備の良さ</h4>
+                        <p>コンセントやWi-Fiを完備している
+                        <br>カフェを紹介します。</p>
+                    </a>
+                    </div>
+                    <div class="recommendation"><a href="http://127.0.0.1:5500/reccomendation.html">
+                        <img src="./Enjoy With a Cafe_files/recommendation.png" alt="">
+                        <h3>MY RECOMMENDATION</h3>
+                        <h4>おすすめ</h4>
+                        <p>私が気に入っているカフェ
+                        <br>を紹介します。</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>©Sheep</p>
+        </footer>
+    </div>
+    
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
