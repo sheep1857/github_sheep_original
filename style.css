@@ -4,6 +4,7 @@
 }
 .all{
     background-color: #E1DCD9;
+    width: auto;
 }
 .top{
     background-image: url(img/top.png);
@@ -397,9 +398,13 @@ footer p{
 }
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:450px) {
+    .all{
+         max-width: 100%;
+    }
     .top{
-        height: 330px;
+        height: 280px;
+        width: 100%;
     }
     .abtitle{
         width: 430px;
@@ -414,6 +419,7 @@ footer p{
         float: none;
         margin-left: 0;
         width: 480px;
+        width: 100%;
     }
     .letter p{
         float: none;
@@ -438,7 +444,7 @@ footer p{
     }
     .findcontent2{
         overflow: unset;
-        display: block;
+        flex-direction: column;
         margin-left: unset;
         margin-right: unset;
 
@@ -452,6 +458,9 @@ footer p{
 
     footer{
         padding-top: 100px;
+    }
+    .board{
+        overflow-x: scroll;
     }
     
 }
