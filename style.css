@@ -512,6 +512,10 @@ footer p{
     .board{
         overflow-x: scroll;
     }
+
+    .af h1{
+        font-size: 25px;
+    }
     footer{
         height: 45px;
         font-size: 14px;
