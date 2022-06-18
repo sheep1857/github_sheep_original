@@ -403,7 +403,7 @@ footer p{
          max-width: 100%;
     }
     .top{
-        background-image: url(img/topipfone.png);
+        background-image: url(img/topiphone.png);
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
@@ -464,5 +464,8 @@ footer p{
     .board{
         overflow-x: scroll;
     }
-    
+    footer{
+        height: 45px;
+        font-size: 14px;
+    }
 }
