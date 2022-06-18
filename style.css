@@ -407,7 +407,7 @@ footer p{
         width: 100%;
     }
     .abtitle{
-        width: 430px;
+        width: 100%;
         text-align: center;
         margin-top: 100px;
         word-break: keep-all;
@@ -429,6 +429,7 @@ footer p{
         font-size: 15px;
         word-break: keep-all;
         text-align: center;
+        width: 100%;
     }
     .affortable+ .seats{
         border-right: unset;
