@@ -398,12 +398,14 @@ footer p{
 }
 
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
     .all{
          max-width: 100%;
     }
     .top{
-        height: 280px;
+        background-image: url(img/topipfone.png);
+        background-size: contain;
+        background-repeat: no-repeat;
         width: 100%;
     }
     .abtitle{
