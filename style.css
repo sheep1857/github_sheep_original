@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+html,body{
+    height: 100%;
+}
 .all{
     background-color: #E1DCD9;
     width: auto;
@@ -14,6 +17,9 @@
 .aboutall{
     height: 1220px;
     margin-top: 300px;
+}
+.aboutall h1{
+    display: none;
 }
 
 a{
@@ -133,6 +139,7 @@ a:hover{
 }
 
 footer{
+    bottom: 0;
     background-image: url(img/footer.png);
     background-repeat: no-repeat;
     color: #FFF;
@@ -355,9 +362,9 @@ footer p{
 }
 .ab2 img{
     margin-top: 70px;
-    height: 560px;
+    width: 770px;
     margin-bottom: 380px;
-    margin-left: 180px;
+    margin-left: auto;
 }
 .ab1 p{
     display: block;
@@ -372,15 +379,15 @@ footer p{
 .naiyo2 span{
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 30px;
     display: block;
 }
 .naiyo3 p{
     display: block;
     margin-top: 200px;
-    margin-left: 200px;
-    margin-right: 100px;
+    margin-left: 140px;
+    margin-right: 200px;
 }
 .naiyo3{
     margin-top: 100px;
@@ -442,6 +449,36 @@ footer p{
     letter-spacing: 0.5em;
     text-decoration: underline;
 }
+.naiyo7 img{
+    height: 195px;
+    margin-left: 540px;
+}
+.naiyo7{
+    position: relative;
+}
+.naiyo7 a{
+    position: absolute;
+    text-align: center;
+    right: 619px;
+    top: 90px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    text-decoration: underline;
+}
+@media screen and (min-width:480px) {
+    .letterbr1{
+        display: none;
+    }
+    .letterbr2{
+        display: none;
+    }
+    .letterbr4{
+        display: none;
+    }
+    
+}
+
 
 
 @media screen and (max-width:480px) {
@@ -454,11 +491,39 @@ footer p{
         background-repeat: no-repeat;
         width: 100%;
     }
+    .aboutp{
+        display: none;
+    }
+    .topimg1 {
+        width: 100%;
+    }
+    .aboutall h1{
+        display: flex;
+        align-items: center;
+        padding-right: 180px;
+        font-size: 30px;
+        color: #3D313F;
+    }
+    .aboutall h1::before{
+        content: '';
+        flex-grow: 1;
+        height: 3px;
+        background-color: #3D313F;
+        margin-right: 22px;
+    }
     .abtitle{
         width: 100%;
         text-align: center;
         margin-top: 100px;
         word-break: keep-all;
+        border-top: 1px solid #31425D;
+        margin-left: 44px;
+        margin-right: 44px;
+        font-size: 20px;
+        letter-spacing: 0mm;
+        width: 78%;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     .abtitle h3{
         width: 100px;
@@ -479,6 +544,11 @@ footer p{
         text-align: center;
         width: 100%;
         word-wrap: break-word;
+        padding-top: 60px;
+        line-height: 40px;
+    }
+    .letterbr3{
+        display: none;
     }
     .affortable+ .seats{
         border-right: unset;
