@@ -9,6 +9,18 @@ html,body{
     background-color: #E1DCD9;
     width: auto;
 }
+.all2{
+    background-color: #E1DCD9;
+}
+h3{
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+h4{
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+p{
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
 .top{
     background-image: url(img/top.png);
     background-size: cover;
@@ -19,6 +31,9 @@ html,body{
     margin-top: 300px;
 }
 .aboutall h1{
+    display: none;
+}
+.topimg1{
     display: none;
 }
 
@@ -70,11 +85,14 @@ a:hover{
     height: 214px;
     left: 1000px;
 }
+.fih1{
+    display: none;
+}
 .fc{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 }
 .findcontent{
     margin-left: 300px;
@@ -87,6 +105,13 @@ a:hover{
     width: 350px;
     height: 370px;
     position: relative;
+}
+.affortable h3{
+    font-size: 25px;
+}
+.affortable h4{
+    font-size: 15px;
+    padding-bottom: 20px;
 }
 .affortable img{
     width: 350px;
@@ -104,12 +129,20 @@ a:hover{
 .seats img{
     width: 350px;
 }
+.seats h3{
+    font-size: 25px;
+}
+.seats h4{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
 .findcontent2{
     padding-top: 40px;
     overflow: hidden;
     display: flex;
     margin-left: 300px;
     margin-right: 300px;
+    height: 500px;
 }
 .equipment{
     float: left;
@@ -119,6 +152,13 @@ a:hover{
 }
 .equipment img{
     width: 350px;
+}
+.equipment h3{
+    font-size: 25px;
+}
+.equipment h4{
+    font-size: 15px;
+    padding-bottom: 20px;
 }
 .equipment+ .recommendation{
     border-right: 0;
@@ -132,6 +172,13 @@ a:hover{
 }
 .recommendation img{
     width: 350px;
+}
+.recommendation h3{
+    font-size: 25px;
+}
+.recommendation h4{
+    font-size: 15px;
+    padding-bottom: 20px;
 }
 .findcontent+ .findcontent2{
     border-bottom: 0;
@@ -172,6 +219,8 @@ footer p{
     font-weight: lighter;
     text-align: center;
     margin-top: 112px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 400;
 }
 
 .board{
@@ -466,7 +515,10 @@ footer p{
     letter-spacing: 0.5em;
     text-decoration: underline;
 }
-@media screen and (min-width:480px) {
+.donokafe{
+    display: none;
+}
+@media screen and (min-width:481px) {
     .letterbr1{
         display: none;
     }
@@ -485,6 +537,9 @@ footer p{
     .all{
          max-width: 100%;
     }
+    .all2{
+        max-height: 100%;
+    }
     .top{
         background-image: url(img/topiphone.png);
         background-size: contain;
@@ -496,6 +551,13 @@ footer p{
     }
     .topimg1 {
         width: 100%;
+        margin-top: 40px;
+    }
+    .topimg2{
+        display: none;
+    }
+    .aboutall{
+        margin-bottom: 200px;
     }
     .aboutall h1{
         display: flex;
@@ -511,6 +573,125 @@ footer p{
         background-color: #3D313F;
         margin-right: 22px;
     }
+    .fih1{
+        display: flex;
+        align-items: center;
+        padding-right: 180px;
+        font-size: 30px;
+        color: #3D313F;
+    }
+    .fih1::before{
+        content: '';
+        flex-grow: 1;
+        height: 3px;
+        background-color: #3D313F;
+        margin-right: 22px;
+    }
+    .findp{
+        display: none;
+    }
+    .donokafe{
+        display: block;
+        text-align: center;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        font-weight: 400;
+    }
+    .affortable{
+        background-image: url(img/haike-.png);
+        width: 500px;
+        height: 625px;
+    }
+    .affortable img{
+        margin-top: 85px;
+        width: 50%;
+    }
+    .affortable h3{
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 24px;
+    }
+    .affortable h4{
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 45px;
+    }
+    .affortable p{
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 2em;
+    }
+    .seats{
+        width: 500px;
+        height: 500px;
+    }
+    .seats img{
+        margin-top: 85px;
+        width: 50%;
+    }
+    .seats h3{
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 24px;
+    }
+    .seats h4{
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 45px;
+    }
+    .seats p{
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 2em;
+    }
+    .equipment{
+        background-image: url(img/haike-.png);
+        width: 500px;
+        height: 625px;
+    }
+    .equipment img{
+        margin-top: 85px;
+        width: 50%;
+    }
+    .equipment h3{
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 24px;
+    }
+    .equipment h4{
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 45px;
+    }
+    .equipment p{
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 2em;
+    }
+    .recommendation{
+        width: 500px;
+        height: 625px;
+    }
+    .recommendation img{
+        margin-top: 85px;
+        width: 50%;
+    }
+    .recommendation h3{
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 24px;
+    }
+    .recommendation h4{
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 45px;
+    }
+    .recommendation p{
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 2em;
+    }
     .abtitle{
         width: 100%;
         text-align: center;
@@ -524,10 +705,9 @@ footer p{
         width: 78%;
         padding-top: 40px;
         padding-bottom: 40px;
-    }
-    .abtitle h3{
-        width: 100px;
         word-wrap: break-word;
+        line-height: 2em;
+        font-weight: 700;
     }
     .letter img{
         float: none;
@@ -550,6 +730,14 @@ footer p{
     .letterbr3{
         display: none;
     }
+    .findcontent{
+        display: flex;
+        overflow: unset;
+        flex-direction: column;
+        margin-left: unset;
+        margin-right: unset;
+        padding-bottom: unset;
+    }
     .affortable+ .seats{
         border-right: unset;
         border-left: unset;
@@ -567,7 +755,13 @@ footer p{
         flex-direction: column;
         margin-left: unset;
         margin-right: unset;
-
+        padding-bottom: unset;
+    }
+    .affortable{
+        margin: 0 auto;
+    }
+    .seats{
+        margin: 0 auto;
     }
     .equipment{
         margin: 0 auto;
@@ -580,7 +774,8 @@ footer p{
         padding-top: 100px;
     }
     .board{
-        overflow-x: scroll;
+        overflow: auto;
+        white-space: nowrap;
     }
 
     .af h1{
