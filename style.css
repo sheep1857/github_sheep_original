@@ -222,6 +222,7 @@ footer p{
     margin-top: 112px;
     font-family: 'Zen Maru Gothic', sans-serif;
     font-weight: 400;
+    font-size: 20px;
 }
 
 .board{
@@ -600,6 +601,11 @@ footer p{
     font-weight: bold;
     letter-spacing: 0.5em;
     text-decoration: underline;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 .naiyo7 img{
     height: 195px;
