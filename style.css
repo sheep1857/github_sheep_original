@@ -195,6 +195,7 @@ footer{
     padding-top: 80px;
     font-size: 26px;
     letter-spacing: 20px;
+    bottom: 0;
 }
 footer p{
     background-color: transparent;
@@ -335,6 +336,96 @@ footer p{
     padding-top: 135px;
     padding-bottom: 155px;
 }
+.name2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name3{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name4{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name5{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name6{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name7{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name8{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name9{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name10{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name11{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name12{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name13{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name14{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name15{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
+.name16{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 155px;
+}
 .naiyo1{
     display: flex;
 }
@@ -409,9 +500,9 @@ footer p{
     height: 560px;
     margin-bottom: 380px;
 }
-.ab2 img{
+.naikan{
     margin-top: 70px;
-    width: 770px;
+    width: 640px;
     margin-bottom: 380px;
     margin-left: auto;
 }
@@ -419,11 +510,17 @@ footer p{
     display: block;
     margin-top: 300px;
     margin-left: 80px;
+    font-size: 20px;
+    letter-spacing: 10%;
+    line-height: 57px;
 }
 .ab2 p{
     display: block;
     margin-top: 190px;
     margin-left: 80px;
+    line-height: 57px;
+    letter-spacing: 10%;
+    font-size: 20px;
 }
 .naiyo2 span{
     text-align: center;
@@ -437,12 +534,18 @@ footer p{
     margin-top: 200px;
     margin-left: 140px;
     margin-right: 200px;
+    font-size: 20px;
+    letter-spacing: 10%;
+    line-height: 57px;
 }
 .naiyo3{
     margin-top: 100px;
 }
 .map{
     display: flex;
+}
+.map2{
+    display: none;
 }
 .ab3{
     margin-bottom: 370px;
@@ -518,6 +621,34 @@ footer p{
 .donokafe{
     display: none;
 }
+.nabr1 .nabr2 .nabr3 .nabr4 .nabr5{
+    display: none;
+}
+.naikan2{
+    display: none;
+}
+.nabr1{
+    display: none;
+}
+.nabr2{
+    display: none;
+}
+.nabr3{
+    display: none;
+}
+.nabr4{
+    display: none;
+}
+.nabr5{
+    display: none;
+}
+.nabr7{
+    display: block;
+}
+.monbr{
+    display: none;
+}
+
 @media screen and (min-width:481px) {
     .letterbr1{
         display: none;
@@ -535,10 +666,11 @@ footer p{
 
 @media screen and (max-width:480px) {
     .all{
-         max-width: 100%;
+         overflow: hidden;
+         height: auto;
     }
     .all2{
-        max-height: 100%;
+        overflow: hidden;
     }
     .top{
         background-image: url(img/topiphone.png);
@@ -552,6 +684,7 @@ footer p{
     .topimg1 {
         width: 100%;
         margin-top: 40px;
+        display: block;
     }
     .topimg2{
         display: none;
@@ -597,6 +730,9 @@ footer p{
         padding-top: 90px;
         padding-bottom: 90px;
         font-weight: 400;
+    }
+    .fc{
+        padding-bottom: 820px;
     }
     .affortable{
         background-image: url(img/haike-.png);
@@ -649,6 +785,8 @@ footer p{
         background-image: url(img/haike-.png);
         width: 500px;
         height: 625px;
+        padding-bottom: 150px;
+        background-repeat: no-repeat;
     }
     .equipment img{
         margin-top: 85px;
@@ -773,9 +911,38 @@ footer p{
     footer{
         padding-top: 100px;
     }
+
+    .af h1{
+        display: flex;
+        align-items: center;
+        padding-right: 180px;
+        font-size: 30px;
+        color: #3D313F;
+    }
+    .af h1::before{
+        content: '';
+        flex-grow: 1;
+        height: 3px;
+        background-color: #3D313F;
+        margin-right: 22px;
+    }
     .board{
         overflow: auto;
         white-space: nowrap;
+        display: flex;
+        justify-content: unset;
+    }
+    .chekiset1{
+        margin-right: 50px;
+    }
+    .chekiset2{
+        margin-right: 50px;
+    }
+    .chekiset3{
+        margin-right: 50px;
+    }
+    .chekiset4{
+        margin-right: 50px;
     }
 
     .af h1{
@@ -785,4 +952,331 @@ footer p{
         height: 45px;
         font-size: 14px;
     }
+    .name{
+        background-image: url(img/nanhudo/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name2{
+        background-image: url(img/agoo/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name3{
+        background-image: url(img/taiseikan/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name4{
+        background-image: url(img/connel/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name5{
+        background-image: url(img/common/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name6{
+        background-image: url(img/monsun/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name7{
+        background-image: url(img/ag/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name8{
+        background-image: url(img/fruit/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name9{
+        background-image: url(img/ohuro/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name10{
+        background-image: url(img/en/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name11{
+        background-image: url(img/conma/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name12{
+        background-image: url(img/nene/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name13{
+        background-image: url(img/soul/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name14{
+        background-image: url(img/hat/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name15{
+        background-image: url(img/dixans/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    .name16{
+        background-image: url(img/5/iphone.png);
+        padding-top: 50vh;
+        padding-bottom: 50vh;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .ab1 h1{
+        display: flex;
+        align-items: center;
+        padding-right: 180px;
+        font-size: 30px;
+        color: #3D313F;
+    }
+    .ab1 h1::before{
+        content: '';
+        flex-grow: 1;
+        height: 3px;
+        background-color: #3D313F;
+        margin-right: 22px;
+    }
+    .ab1 img{
+        height: 380px;
+        margin-bottom: 80px;
+    }
+    .ab1 p{
+        margin-left: unset;
+        font-size: 15px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        margin-top: unset;
+        line-height: 40px;
+        margin-bottom: 260px;
+    }
+    .nabr1 .nabr2 .nabr3 .nabr4 .nabr5{
+        display: block;
+    }
+    .naiyo1{
+        display: block;
+    }
+    .ab2 h1{
+        display: flex;
+        align-items: center;
+        padding-right: 180px;
+        font-size: 30px;
+        color: #3D313F;
+    }
+    .ab2 h1::before{
+        content: '';
+        flex-grow: 1;
+        height: 3px;
+        background-color: #3D313F;
+        margin-right: 22px;
+    }
+    .naikan2{
+        display: block;
+        height: 380px;
+        text-align: right;
+        margin-top: 70px;
+        margin-left: auto;
+    }
+    .naikan{
+        display: none;
+    }
+    .ab2 p{
+        display: block;
+        font-size: 15px;
+        margin-bottom: 100px;
+    }
+    .naiyo2{
+        display: block;
+    }
+    .ab2 p{
+        margin-left: unset;
+        text-align: center;
+        letter-spacing: 3%;
+        line-height: 57px;
+    }
+    .ab3{
+        margin-bottom: 0;
+    }
+    .ab3 h1{
+        display: flex;
+        align-items: center;
+        padding-right: 180px;
+        font-size: 30px;
+        color: #3D313F;
+    }
+    .ab3 h1::before{
+        content: '';
+        flex-grow: 1;
+        height: 3px;
+        background-color: #3D313F;
+        margin-right: 22px;
+    }
+    .map{
+        display: none;
+    }
+    .map2{
+        display: block;
+        width: 95%;
+        text-align: center;
+        background-image: url(img/map.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .map2 iframe {
+        top: 0;
+        left: 0;
+        height: 250px;
+        width: 320px;
+        text-align: center;
+      }
+      .naiyo3{
+          display: block;
+      }
+      .naiyo3 p{
+          margin-left: 50px;
+          margin-right: 50px;
+          margin-top: 100px;
+          text-align: center;
+          line-height: 45px;
+      }
+      .nabr1{
+          display: block;
+      }
+      .nabr2{
+          display: block;
+      }
+      .nabr3{
+          display: block;
+      }
+      .nabr4{
+          display: block;
+      }
+      .nabr5{
+          display: block;
+      }
+      .nabr7{
+          display: none;
+      }
+      .naiyo3 p{
+          font-size: 15px;
+      }
+      .naiyo4 img{
+          display: block;
+          margin-left: unset;
+          margin: auto;
+      }
+      .naiyo4 a{
+          right: 131px;
+          display: block;
+          margin: auto;
+      }
+      .ab4 h1{
+        display: flex;
+        align-items: center;
+        padding-right: 180px;
+        font-size: 30px;
+        color: #3D313F;
+    }
+    .ab4 h1::before{
+        content: '';
+        flex-grow: 1;
+        height: 3px;
+        background-color: #3D313F;
+        margin-right: 22px;
+    }
+    .naiyo5 img{
+        display: block;
+        margin-left: unset;
+        margin: auto;
+    }
+    .naiyo5 a{
+        right: 194px;
+        display: block;
+        margin: auto;
+    }
+    .naiyo6 img{
+        display: block;
+        margin-left: unset;
+        margin: auto;
+    }
+    .naiyo6 a{
+        right: 161px;
+        display: block;
+        margin: auto;
+    }
+    .naiyo7 img{
+        display: block;
+        margin-left: unset;
+        margin: auto;
+    }
+    .naiyo7 a{
+        right: 134px;
+        display: block;
+        margin: auto;
+    }
+    .monbr{
+        display: block;
+    }
+    
 }
+
