@@ -237,6 +237,14 @@ footer p{
     width: 220px;
     margin: 20px;
 }
+.cheki a p{
+    display: block;
+    margin: auto;
+}
+.cheki a h3{
+    display: block;
+    margin: auto;
+}
 .chekiset1{
     position: relative;
 }
@@ -427,6 +435,9 @@ footer p{
     padding-top: 135px;
     padding-bottom: 155px;
 }
+.naiyo{
+    display: flex;
+}
 .naiyo1{
     display: flex;
 }
@@ -553,7 +564,8 @@ footer p{
 }
 .naiyo4 img{
     height: 195px;
-    margin-left: 540px;
+    display: block;
+    margin: auto;
 }
 .naiyo4{
     position: relative;
@@ -561,16 +573,20 @@ footer p{
 .naiyo4 a{
     position: absolute;
     text-align: center;
-    right: 615px;
-    top: 90px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
     color: #fff;
     font-weight: bold;
     letter-spacing: 0.5em;
-    text-decoration: underline;
+    text-decoration: none;
+    display: block;
+    margin: auto;
 }
 .naiyo5 img{
+    display: block;
+    margin: auto;
     height: 195px;
-    margin-left: 540px;
 }
 .naiyo5{
     position: relative;
@@ -578,16 +594,20 @@ footer p{
 .naiyo5 a{
     position: absolute;
     text-align: center;
-    right: 680px;
-    top: 90px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
     color: #fff;
     font-weight: bold;
     letter-spacing: 0.5em;
-    text-decoration: underline;
+    text-decoration: none;
+    display: block;
+    margin: auto;
 }
 .naiyo6 img{
+    display: block;
+    margin: auto;
     height: 195px;
-    margin-left: 540px;
 }
 .naiyo6{
     position: relative;
@@ -595,21 +615,20 @@ footer p{
 .naiyo6 a{
     position: absolute;
     text-align: center;
-    right: 650px;
-    top: 90px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
     color: #fff;
     font-weight: bold;
     letter-spacing: 0.5em;
-    text-decoration: underline;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    text-decoration: none;
+    display: block;
+    margin: auto;
 }
 .naiyo7 img{
     height: 195px;
-    margin-left: 540px;
+    display: block;
+    margin: auto;
 }
 .naiyo7{
     position: relative;
@@ -617,12 +636,15 @@ footer p{
 .naiyo7 a{
     position: absolute;
     text-align: center;
-    right: 619px;
-    top: 90px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
     color: #fff;
     font-weight: bold;
     letter-spacing: 0.5em;
-    text-decoration: underline;
+    text-decoration: none;
+    display: block;
+    margin: auto;
 }
 .donokafe{
     display: none;
