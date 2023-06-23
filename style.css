@@ -1248,15 +1248,7 @@ footer p{
       .naiyo3 p{
           font-size: 15px;
       }
-      .naiyo4 img{
-          display: block;
-          margin-left: unset;
-          margin: auto;
-      }
-      .naiyo4 a{
-          display: block;
-          margin: auto;
-      }
+     
       .ab4 h1{
         display: flex;
         align-items: center;
@@ -1271,30 +1263,7 @@ footer p{
         background-color: #3D313F;
         margin-right: 22px;
     }
-    .naiyo5 img{
-        display: block;
-        margin: auto;
-    }
-    .naiyo5 a{
-        display: block;
-        margin: auto;
-    }
-    .naiyo6 img{
-        display: block;
-        margin: auto;
-    }
-    .naiyo6 a{
-        display: block;
-        margin: auto;
-    }
-    .naiyo7 img{
-        display: block;
-        margin: auto;
-    }
-    .naiyo7 a{
-        display: block;
-        margin: auto;
-    }
+    
     .monbr{
         display: block;
     }
